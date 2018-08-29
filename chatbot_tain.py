@@ -5,8 +5,8 @@ import os
 bot = ChatBot('Corpus')
 bot.set_trainer(ListTrainer)
 
-for files in os.listdir('C:/Users/smriti.maithani\Documents\Chatbot\chatterbot-corpus-master\chatterbot_corpus\data\english/'):
-        data = open('C:/Users/smriti.maithani\Documents\Chatbot\chatterbot-corpus-master\chatterbot_corpus\data\english/' + files , 'r').readlines()
+for files in os.listdir('Path of the Chatbot_corpus'):
+        data = open('Path Of the Chatbot_corpus' + files , 'r').readlines()
         bot.train(data)
 while True:
         message = input('You:')
