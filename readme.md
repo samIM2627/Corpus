@@ -64,3 +64,17 @@ When you are done, please proceed with the Django Chatterbot Training session.
 pip install -r requirements.txt
 nosetests
 ```
+
+
+
+For installation of ChatterBot
+- > run pip install chatterbot from cmd.
+- > Else , Download chatterbot python package from https://pypi.org/project/ChatterBot/0.4.7/ or from GitHub.
+- > Extract the package and move the path where setup.py is located .
+- > Then run "python setup.py build and python setup.py install". 
+- > This will install the package , if it asks any dependencies , download that package and follow the same steps.﻿
+ 
+Open CMD cd to the destination directory
+run python chatbot_train.py for training you chat bot
+
+For restarting the ChatBot run python chatbot.py 
